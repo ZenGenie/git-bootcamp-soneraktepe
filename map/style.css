@@ -1,0 +1,38 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+.triangle{
+  width: 100px; 
+  height: 100px; 
+  background: red; 
+}  
+.circle{
+  width: 100px; 
+  height: 100px; 
+  background: red; 
+}
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 50px;
+  padding: 20px;
+  width: 20vw;
+  min-width: 200px;
+  font-size: 20px;
+  box-sizing: border-box;
+  align-items: stretch
+}
